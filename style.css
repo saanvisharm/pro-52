@@ -1,0 +1,57 @@
+h1{
+    color:darkcyan;
+    border-style:dotted;
+    justify-content:stretch;
+    font-size:2vw;
+}
+.header{
+    background-color:rgb(113, 224, 219);
+    display:flex;
+    justify-content:center;
+}
+.menu{
+    border-style: dotted;
+    border-color:chocolate;
+    border-width:thick;
+    font-size: medium;
+    font-style: italic;
+    display:flex;
+    justify-content: flex-end;
+    font-size: 1vw;
+}
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    border-style:double;
+    border:solid;
+    border-color:darkmagenta;
+    justify-content: space-evenly;
+}
+.origami{
+    border-radius: 20px;
+    background-color:blanchedalmond;
+    margin:30px;
+    padding:30px;
+    width:310px;
+    font-family:fantasy;
+}
+.origami p{
+    top: 180px;
+    left:80px;
+    font-size:25px;
+    background-color:transparent;
+}
+
+.bodyimg{
+    text-align: center;
+    text-decoration:underline;
+}
+a:link{
+    color:lightcoral
+}
+a:visited{
+    color:steelblue
+}
+.origami:hover img{
+    opacity:0.22;
+}
